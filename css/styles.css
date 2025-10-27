@@ -56,8 +56,7 @@ a {
 }
 
 .hero-section {
-  width: 1440px;
-  height: 600px;
+  /*wight*/
   background: #2e2f42;
 }
 
@@ -66,7 +65,7 @@ a {
   font-size: 56px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  text-align: center;
+  /*text-align: center;*/
   color: #fff;
 }
 
