@@ -14,7 +14,10 @@ a {
 }
 
 .logo-header-nav-logo {
-  font: 700 18px / 1.17 'Raleway', sans-serif;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -25,7 +28,10 @@ a {
 }
 
 .nav-list-link {
-  font: 500 16px / 1.5 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -35,7 +41,9 @@ a {
 }
 
 .header-adress-link {
-  font: 400 16px / 1.5;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -53,30 +61,38 @@ a {
   background: #2e2f42;
 }
 
-.hero-first {
-  font: 700 56px / 1.1;
+.title-hero {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 
-.button-section-first {
-  width: 169px;
-  height: 56px;
+.button-hero-section {
   background-color: #4d5ae5;
-  border: none;
-  border-radius: 4px;
-  font: 500 16px / 1.5;
-  letter-spacing: 0.04em;
   color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
-.features-list-hero {
-  font: 500 20px / 1.2;
+.features-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.features-item-desription {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .page-footer {
